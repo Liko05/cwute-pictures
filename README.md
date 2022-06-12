@@ -6,3 +6,5 @@ displays them to user after getting get request on some specific url.
 
 Server uses node.js with express framework.
 Application is written in native c# and installed NewtonSoft JSON library.
+
+You can try this app on this url [https://cwute.systems](https://cwute.systems)
