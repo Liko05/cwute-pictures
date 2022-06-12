@@ -1,0 +1,100 @@
+* {
+    font-family: monospace;
+  }
+  body {
+    background: url("/image_viewer/img/main.svg");
+    background-color: #001220;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #header h1 {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    padding: 25px;
+    background: linear-gradient(
+      90deg,
+      rgba(247, 161, 0, 1) 0%,
+      rgba(252, 0, 210, 1) 25%,
+      rgba(113, 40, 255, 1) 50%,
+      rgba(0, 137, 255, 1) 75%,
+      rgba(14, 214, 255, 1) 100%
+    );
+    font-size: 200%;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 17px;
+  }
+  
+  .spacer {
+    height: 25px;
+    background-color: rgba(240, 248, 255, 0);
+  }
+  
+  #image-container img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 25px;
+    background: linear-gradient(
+      90deg,
+      rgba(247, 161, 0, 1) 0%,
+      rgba(252, 0, 210, 1) 25%,
+      rgba(113, 40, 255, 1) 50%,
+      rgba(0, 137, 255, 1) 75%,
+      rgba(14, 214, 255, 1) 100%
+    );
+    border-radius: 17px;
+  }
+  #information-container{
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    padding: 10px;
+    background: linear-gradient(
+      90deg,
+      rgba(247, 161, 0, 1) 0%,
+      rgba(252, 0, 210, 1) 25%,
+      rgba(113, 40, 255, 1) 50%,
+      rgba(0, 137, 255, 1) 75%,
+      rgba(14, 214, 255, 1) 100%
+    );
+    font-size: 1.5em;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 17px;
+  }
+
+  a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 0.2%;
+    border: 2px solid #003d6b48;
+  }
+  
+  a:hover {
+    background-color: #003d6b48;
+  }
+  footer {
+    color: aliceblue;
+    font-size: 80%;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 300px) {
+    #header h1 {
+      font-size: 150%;
+    }
+    #image-container img {
+      width: 100%;
+    }
+    #information-container p {
+      font-size: 1em;
+    }
+  }

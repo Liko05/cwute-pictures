@@ -1,0 +1,90 @@
+* {
+    font-family: monospace;
+  }
+  body {
+    background: url("/error_site/img/main.svg");
+    background-color: #001220;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #header h1 {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    padding: 25px;
+    background: linear-gradient(
+      90deg,
+      rgba(247, 161, 0, 1) 0%,
+      rgba(252, 0, 210, 1) 25%,
+      rgba(113, 40, 255, 1) 50%,
+      rgba(0, 137, 255, 1) 75%,
+      rgba(14, 214, 255, 1) 100%
+    );
+    font-size: 200%;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 17px;
+  }
+  
+  .spacer {
+    height: 25px;
+    background-color: rgba(240, 248, 255, 0);
+  }
+  
+  #image-container img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 25px;
+    background: linear-gradient(
+      90deg,
+      rgba(247, 161, 0, 1) 0%,
+      rgba(252, 0, 210, 1) 25%,
+      rgba(113, 40, 255, 1) 50%,
+      rgba(0, 137, 255, 1) 75%,
+      rgba(14, 214, 255, 1) 100%
+    );
+    border-radius: 17px;
+  }
+  #information-container p {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    padding: 10px;
+    background: linear-gradient(
+      90deg,
+      rgba(247, 161, 0, 1) 0%,
+      rgba(252, 0, 210, 1) 25%,
+      rgba(113, 40, 255, 1) 50%,
+      rgba(0, 137, 255, 1) 75%,
+      rgba(14, 214, 255, 1) 100%
+    );
+    font-size: 1.5em;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 17px;
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0%;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 300px) {
+    #header h1 {
+      font-size: 150%;
+    }
+    #image-container img {
+      height: 80%;
+      width: 20%;
+    }
+    #information-container p {
+      font-size: 1em;
+    }
+  }
